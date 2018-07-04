@@ -42,4 +42,4 @@ if ($ConnectStatus.ConnectionStatus -eq "Connected") {
 
 # Launch RDG file
 Write-Host 'opening'$VPN'.rdg'
-.\RDCMan.exe "$env:USERPROFILE\Documents\X\Clients\$VPN\$VPN.rdg"
+.\RDCMan.exe "$env:USERPROFILE\YOURFILEPATH\$VPN\$VPN.rdg"
